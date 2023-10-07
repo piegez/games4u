@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body > header {
+    padding: 16px 0;
+    font-family: 'Exo 2', sans-serif;
+    background-color: #219C90;
+    color: #FCF6F5;
+    margin-bottom: 15px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listagames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.listagames article {
+    width: 30%;
+    margin-bottom: 16px;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FCF6F5;
+}
+
+header li {
+    display: inline;
+    font-family: 'Exo 2', sans-serif;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+header nav li a {
+    display: inline;
+    margin-left: 16px;
+    color: #FCF6F5;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+header .about, 
+section .about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#quemsomos video {
+    margin-right: 20px;
+}
+
+#quemsomos {
+    background-color: #D83F31;
+    margin-top: -15px;
+    padding: 3%;
+    text-align: justify;
+}
+
+#quemsomos li {
+    display: flow-root;
+    
+}
+
+
+#games {
+    background-color: #EE9322;
+    padding: 2%;
+    text-align: justify;
+}
+
+#games h2, 
+h3 {
+    text-align: center;
+    font-weight: bolder; 
+}
+
+#games img {
+    height: 220px
+}
+
+.contato {
+    background-color: #E9B824;
+    padding: 2%;
+    text-align: center;
+}
+
+
+.social img {
+    height: 24px;
+}
+
+.types li {
+    display: inline;
+    margin-right: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form {
+    margin: auto;
+    display: table;
+}
+
+form input, 
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+
+form button {
+    background-color: #D83F31;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #219C90;
+}
+
+input:focus, textarea:focus {
+    outline-color: #219C90;
+}
+
+footer {
+    color: black;
+}
+
